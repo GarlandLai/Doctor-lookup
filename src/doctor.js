@@ -1,5 +1,5 @@
 export class DoctorLook {
-  getDoctor(medIssue) {
+  getDoctor(name) {
     return new Promise(function(resolve, reject) {
       let request = new XMLHttpRequest();
 

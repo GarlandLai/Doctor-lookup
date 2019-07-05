@@ -1,8 +1,8 @@
 import $ from 'jquery';
-import { } from './doctor.js'
+import { DoctorLook } from './doctor.js'
 
 $(document).ready(function() {
-  $('#findDoc1')click(function(){
+  $('#findDoc1').click(function(){
     let nameInput = $('#name').val();
     let doctorLook = new DoctorLook();
 
@@ -10,16 +10,16 @@ $(document).ready(function() {
 
     promise.then(function(response) {
       let body = JSON.parse(response);
-      $('.output').text();
-  });
+      $('.output').text('hey');
+    });
 
 
 
 
 
 
-//   $('#findDoc2')click(function() {
+//   $('#findDoc2').click(function() {
 //     let issueInput = $('#medIssue').val();
 //     $('#medIssue').val("");
-//   });
-// });
+  });
+});
