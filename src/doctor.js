@@ -3,7 +3,7 @@ export class DoctorLook {
     return new Promise(function(resolve, reject) {
       let request = new XMLHttpRequest();
 
-      const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=d8dd66e6a045597f1ce5f28b0149c8e9`;
+      const url = `https://developer.betterdoctor.com?q=Portland&appid=a0220cf0dee3060d82e4f322141749b6`;
 
       request.onload = function() {
         if (this.status === 200) {
