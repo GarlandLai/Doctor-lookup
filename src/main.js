@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     promise.then(function(response) {
       let body = JSON.parse(response);
-      $('.output').text(this.body);
+      console.log(body);
     });
 
 
