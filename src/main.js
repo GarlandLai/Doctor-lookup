@@ -3,4 +3,3 @@ import { } from './doctor.js'
 
 
 $(document).ready(function() {
-  
