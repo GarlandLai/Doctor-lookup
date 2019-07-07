@@ -12,7 +12,7 @@ _Enter in your name and see list of doctors in Portland. Also, you may enter in 
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
-| User enters their name | "Kevin" | returns list of doctors in Portland |
+| User enters doctor name | "Kevin" | returns list of doctors in Portland that include Kevin |
 | User enters medical issue | "Stomach Ache" | returns doctors that specialize in stomach issues |
 
 
