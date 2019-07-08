@@ -1,3 +1,7 @@
 body {
   background-color: grey;
 }
+
+#noResult h5 {
+  font-color: red;
+}

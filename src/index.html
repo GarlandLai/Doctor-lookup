@@ -1,21 +1,32 @@
 <html>
-  <head>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-    <title>Doctor Lookup</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Doctor Lookup</h1>
-      <label for="input">Search doctor by name or medical issue:</label>
-      <input id="input" type="text" value=""><br><br>
-      <button class="btn-success" id="findDoc">Find doctors in Portland!</button>
-      <br>
-      <div class="output">
-        <ol>
-        </ol>
-      </div>
-      <div class="showErrors">
-      </div>
+<head>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <title>Doctor Lookup</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Doctor Lookup</h1>
+    <h4>Search doctor by name:</h4>
+    <input id="name" type="text" value="">
+    <button class="btn-success" id="findDoc2">Search!</button>
+    <br>
+    <div class="nameOutput">
+      <ol>
+      </ol>
     </div>
-  </body>
+    <h4>Search doctor medical issue or symptom:</h4>
+    <input id="input" type="text" value="">
+    <button class="btn-success" id="findDoc">Search!</button>
+    <br>
+    <div class="output">
+      <ol>
+      </ol>
+    </div>
+    <div id='noResults'>
+    </div>
+    <br>
+    <div class="showErrors">
+    </div>
+  </div>
+</body>
 </html>
