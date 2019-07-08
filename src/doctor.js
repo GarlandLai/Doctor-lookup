@@ -17,7 +17,7 @@ export class DoctorLook {
   getDoctorName(nameInput) {
     return new Promise(function(resolve, reject) {
       let request = new XMLHttpRequest();
-      const url = `https://api.betterdoctor.com/2016-03-01/doctors?name=${nameInput}&location=or-portland&skip=0&limit=20&user_key=exports.apiKey`;
+      const url = `https://api.betterdoctor.com/2016-03-01/doctors?name=${nameInput}&location=or-portland&skip=0&limit=20&user_key=process.exports.apiKey`;
 
       request.onload = function() {
         if (this.status === 200) {
