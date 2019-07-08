@@ -20,10 +20,7 @@ $(document).ready(function() {
       for (let i = 0; i < body.data.length; i+=1) {
         console.log(body.data.length)
         if (body.data[i].profile.first_name.includes(userInput) || body.data[i].profile.last_name.includes(userInput) || body.data[i].profile.specialties.includes(userInput)) {
-          $('.output ul').append(`<li> Name: ${body.data[i].profile.first_name} ${body.data[i].profile.last_name}, Address: ${body.data[i].practices.visit_adresss}, Phone: ${body.data[i].practices.phones}, Accepting New Patients: ${body.data[i].practices.accepts_new_patients}  </li>`);
-          // $('.output').append(body.data[i].lastName, firstName, address, phone number, website, accepting new patients)
-        // } else {
-        //   $('.output').text('There are 0 results matching your search. Please update or check your search. Thank you!')
+          $('.output ul').append(`<li> Name: ${body.data[i].profile.first_name} ${body.data[i].profile.last_name}, Address: ${body.data[i].practices[0].visit_address.street}, Phone: ${body.data[i].practices[0].phones[0].number}, Accepting New Patients: ${body.data[i].practices[0].accepts_new_patients}</li>`);
         }
       }
 
