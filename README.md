@@ -1,4 +1,4 @@
-# Garland Lai's Super Galactic Age Calculator
+# Garland Lai's Doctor Look-up Website
 
 ### _Epicodus Asynchrony and API Project for Week 6, July 5th, 2019_
 
@@ -6,19 +6,18 @@
 
 ## Description
 
-_Enter in your name and see list of doctors in Portland. Also, you may enter in the medical issue you are experiencing and the website will return doctors that can help!_
+_Website to look for Doctors in Portland, Oregon. To start, enter in the doctors name or the medical issue you are experiencing._
 
 ## Specifications
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
 | User enters doctor name | "Kevin" | returns list of doctors in Portland that include Kevin |
-| User enters medical issue | "Stomach Ache" | returns doctors that specialize in stomach issues |
-
+| User enters medical issue | "Chest Pains" | returns doctors that specialize in the issue |
 
 ## Setup/Installation Requirements
 
-1. [Click here]() to get started!
+1. [Click here](https://github.com/GarlandLai/Doctor-lookup.git) to get started!
 2. _Clone the repository._
 3. _Save to desired location._
 4. _Open the index_html file with your preferred web browser._
