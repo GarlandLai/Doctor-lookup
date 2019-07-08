@@ -19,11 +19,9 @@ $(document).ready(function() {
       }
 
       for (let i = 0; i < body.data.length; i+=1) {
-        if (body.data[i].profile.first_name.includes(userInput) || body.data[i].profile.last_name.includes(userInput) || body.data[i].profile.specialties.includes(userInput)) {
           $('.output ul').append(`<li> Name: ${body.data[i].profile.first_name} ${body.data[i].profile.last_name}, Address: ${body.data[i].practices[0].visit_address.street}, Phone: ${body.data[i].practices[0].phones[0].number}, Accepting New Patients: ${body.data[i].practices[0].accepts_new_patients}</li>`);
         }
-      }
-    });
+      });
     // function (error) {
     //   $('.showErrors').text(`There was an error processing your request: ${error.message}`);
     // });
