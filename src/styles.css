@@ -1,7 +1,9 @@
 body {
+  background-color: lightgrey;
+}
+.jumbotron {
   background-color: grey;
 }
-
 #noResult h5 {
   font-color: red;
 }
